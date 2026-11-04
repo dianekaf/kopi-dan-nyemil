@@ -25,17 +25,26 @@ Aplikasi mobile Android native berbasis Kotlin yang mengimplementasikan alur pem
 
 ## 📸 Dokumentasi Tampilan
 
-<img src="https://github.com/user-attachments/assets/ceca57ee-b98d-4aba-a30b-0dcc87fe31af" width="200" /> 
-<img src="https://github.com/user-attachments/assets/de0d0588-7a5e-452f-91d4-6e6d6249d81e" width="200" /> 
-<img src="https://github.com/user-attachments/assets/0700bde0-7d2d-495f-aba9-4dd033c2bd2a" width="200" /> 
-<img src="https://github.com/user-attachments/assets/f9668f74-82c1-455e-add5-f3a0f8cd6d75" width="200" />
-<img src="https://github.com/user-attachments/assets/2560e98a-0fee-45a2-a470-050e81830afd" width="200" /> 
-<img src="https://github.com/user-attachments/assets/8a0ed531-2dd4-48a1-bad2-c4298ca18841" width="200" /> 
-<img src="https://github.com/user-attachments/assets/32199bae-41b0-4195-b9d8-64ed82c9c456" width="200" /> 
-<img src="https://github.com/user-attachments/assets/951cdeaa-4f03-4a9f-8b00-345ab3da18ff" width="200" />
-<img src="https://github.com/user-attachments/assets/b2cd26df-7a10-491c-adc6-505e4babac1a" width="200" /> 
-<img src="https://github.com/user-attachments/assets/ff333eba-8d9f-4db5-a702-2a248111ea90" width="200" /> 
-<img src="https://github.com/user-attachments/assets/19651687-cbaa-496f-bd35-948f9f42cc3a" width="200" /> 
-<img src="https://github.com/user-attachments/assets/9dbc313b-6571-45e1-b2d4-a9e88d5e873c" width="200" />
-<img src="https://github.com/user-attachments/assets/115369ef-19c0-4934-a1eb-836c41c4fcf8" width="200" /> 
-<img src="https://github.com/user-attachments/assets/e93222f6-9529-4d5f-b6c2-458af6e795a" width="200" />
+### 1. Splash Screen
+<img src="https://github.com/user-attachments/assets/12b97632-157b-4673-8b70-b6b39b586cb7" width="220" />
+
+### 2. Sign Up (Landing)
+<img src="https://github.com/user-attachments/assets/7b529567-2260-4f8e-bf53-809b680c3922" width="220" />
+
+### 3. Login User
+<img src="https://github.com/user-attachments/assets/c2029038-73ee-4543-852a-95340f9cbbe3" width="220" /> <img src="https://github.com/user-attachments/assets/af9951e9-dc68-4dbd-93bb-207e23fd042e" width="220" />
+
+### 4. Register
+<img src="https://github.com/user-attachments/assets/84ce04f4-bd0d-4c93-b5d6-d46729f100eb" width="220" /> <img src="https://github.com/user-attachments/assets/00d11a8f-32f7-4f42-8008-884455769ade" width="220" />
+
+### 5. Home Screen
+<img src="https://github.com/user-attachments/assets/c5651278-dc16-430b-a28f-004152c9f287" width="220" /> <img src="https://github.com/user-attachments/assets/403693c7-8670-447e-a435-01ad996297b8" width="220" /> <img src="https://github.com/user-attachments/assets/a6ebf443-c8e7-4134-bb0b-17ffd32a14fb" width="220" />
+
+### 6. Profile Screen
+<img src="https://github.com/user-attachments/assets/86f58410-6a59-483e-a5e0-9191379eaef5" width="220" /> <img src="https://github.com/user-attachments/assets/c6b20a74-83ba-4f5d-bbe1-c5af3f238a5f" width="220" />
+
+### 7. Alamat Pengiriman (Order)
+<img src="https://github.com/user-attachments/assets/084df709-a146-411b-aa25-a5b3863b796f" width="220" /> <img src="https://github.com/user-attachments/assets/ef5731a7-ecbd-4e8e-a7de-40f337d55c6f" width="220" />
+
+### 8. Konfirmasi Pesanan
+<img src="https://github.com/user-attachments/assets/b7266093-f1ca-40f6-bacb-8570df85c000" width="220" />
