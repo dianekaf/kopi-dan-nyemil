@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Register"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etRegName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="nama lengkap"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etRegUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="username"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>

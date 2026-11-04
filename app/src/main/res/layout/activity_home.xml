@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
+
+        <Button
+            android:id="@+id/btnNavHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black"
+            android:text="Home"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnNavOrder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Order"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnNavProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Profile"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halo, silahkan pesan menu berikut"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="12dp"
+                android:text="☕ Kopi &amp; Minuman"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/kopi_susu" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kopi Susu Gula Aren" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Espresso, susu segar, gula aren" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 18.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/kopi_brown_sugar" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kopi Brown Sugar" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kopi manis gula merah khas" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/espresso" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Espresso" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ekstrak kopi murni pekat" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 10.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/americano" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Americano" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Espresso dengan air panas/es" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 10.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/cappuccino" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cappuccino" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Espresso, steamed milk &amp; foam" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/caffe_latte" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Caffe Latte" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kopi dengan komposisi susu lebih dominan" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/creamy_macchiato" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Creamy Macchiato" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kopi creamy topping macchiato" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/affogato" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Affogato" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Es krim vanila disiram espresso" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/matcha" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Matcha Latte" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bubuk matcha jepang, susu segar" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 24.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"
+                android:text="🍽️ Makanan &amp; Cemilan"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/donat" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Donat Cokelat" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Donat empuk topping melimpah" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 12.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/sourdough" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sourdough Loaf" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Roti fermentasi alami" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 25.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ayam_bakar" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam Bakar" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam bumbu kecap bakar gurih" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 14.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ayam_goreng" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam Goreng" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam goreng rempah krispi" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 14.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ayam_geprek" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam Geprek" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam crispy digeprek sambal bawang" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ayam_penyet" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam Penyet" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ayam dipenyet sambal terasi khas" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 15.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ikan_bakar" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ikan Bakar" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ikan segar bakar bumbu kecap" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 13.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+                <ImageView android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:src="@drawable/ikan_goreng" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ikan Goreng" android:textColor="@android:color/black" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ikan goreng garing bumbu kuning" android:textColor="#808080" android:textSize="12sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rp 13.000" android:textColor="#2E7D32" android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
