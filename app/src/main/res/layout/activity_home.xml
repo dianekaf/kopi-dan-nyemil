@@ -55,10 +55,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Halo, silahkan pesan menu berikut"
+                android:text="Halo,Nama"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:id="@+id/tvHaloNama"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -89,10 +90,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -104,11 +107,14 @@
                 </LinearLayout>
             </LinearLayout>
 
+            <!-- ITEM 3 SAMPAI 17 SUDAH DITAMBAHKAN ID -->
             <LinearLayout
+                android:id="@+id/item3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -121,10 +127,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -137,10 +145,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -153,10 +163,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -169,10 +181,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -185,10 +199,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -201,10 +217,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -227,10 +245,12 @@
                 android:textStyle="bold" />
 
             <LinearLayout
+                android:id="@+id/item10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -243,10 +263,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -259,10 +281,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -276,10 +300,12 @@
 
 
             <LinearLayout
+                android:id="@+id/item13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -293,10 +319,12 @@
 
 
             <LinearLayout
+                android:id="@+id/item14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -309,10 +337,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -325,10 +355,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -341,10 +373,12 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/item17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:elevation="2dp"
                 android:orientation="horizontal"
                 android:padding="12dp">

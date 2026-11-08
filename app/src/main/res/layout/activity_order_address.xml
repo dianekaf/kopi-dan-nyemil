@@ -1,73 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="24dp">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSubmitOrder"
+        android:padding="24dp">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat Pengiriman (Order)"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:orientation="vertical"
+            android:paddingBottom="200dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Alamat"
-            android:textColor="@android:color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="#808080"
+                android:text="← Kembali"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
 
-        <EditText
-            android:id="@+id/etOrderName"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="16dp"
-            android:background="@android:drawable/edit_text"
-            android:hint="Nama Lengkap"
-            android:padding="12dp"
-            android:textColor="@android:color/black"
-            android:textColorHint="#808080" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat Pengiriman (Order)"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/etOrderAddress"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="12dp"
-            android:background="@android:drawable/edit_text"
-            android:hint="Alamat"
-            android:padding="12dp"
-            android:textColor="@android:color/black"
-            android:textColorHint="#808080" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Daftar Pesanan Anda:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/etOrderDetail"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="12dp"
-            android:background="@android:drawable/edit_text"
-            android:gravity="top|start"
-            android:hint="Patokan atau detail lengkap"
-            android:inputType="textMultiLine"
-            android:padding="12dp"
-            android:textColor="@android:color/black"
-            android:textColorHint="#808080" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tvDaftarPesanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:text="Belum ada pesanan."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Alamat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etOrderName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:drawable/edit_text"
+                android:hint="Nama Lengkap"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/etOrderAddress"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:drawable/edit_text"
+                android:hint="Alamat"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/etOrderDetail"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:drawable/edit_text"
+                android:gravity="top|start"
+                android:hint="Patokan atau detail lengkap"
+                android:inputType="textMultiLine"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#808080" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/btnSubmitOrder"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
         android:backgroundTint="@android:color/black"
         android:text="Order dan Kirim"
         android:textAllCaps="false"

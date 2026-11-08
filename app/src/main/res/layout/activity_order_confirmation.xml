@@ -58,4 +58,16 @@
         android:text="Oke"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#808080"
+        android:text="← Kembali"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
 </RelativeLayout>

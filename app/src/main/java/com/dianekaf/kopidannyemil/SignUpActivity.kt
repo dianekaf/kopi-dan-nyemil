@@ -12,6 +12,12 @@ class SignUpActivity : AppCompatActivity() {
 
         val btnGoToRegister: Button = findViewById(R.id.btnGoToRegister)
         val btnGoToLogin: Button = findViewById(R.id.btnGoToLogin)
+        val btnBack: Button? = findViewById(R.id.btnBack)
+
+        btnBack?.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
 
         btnGoToRegister.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
